@@ -1,0 +1,30 @@
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}*{
+  box-sizing: border-box;
+}
+header, footer{
+  border: 3px solid black;
+  height: 100px;
+  clear: both;
+}
+.sec1{
+  width: 33.3333%;
+  height: 100px;
+  border: 3px solid black;
+}
+section{
+  float: left;
+}
+.sec2{
+  height: 100px;
+  border: 3px solid black;
+  width: 50%;
+}
